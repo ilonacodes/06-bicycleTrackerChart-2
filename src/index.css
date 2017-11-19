@@ -1,5 +1,41 @@
 html, body {
     font-family: Monaco, monospace;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    display: inline-block;
+    background: #f3f3f3;
+}
+
+.logo {
+    float: left;
+    color: #2ECC71;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 1rem;
+    letter-spacing: 2px;
+}
+
+.input-container {
+    float: right;
+    padding-right: 1rem;
+    margin-top: 12px;
+
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+    font-family: monospace;
+    border-radius: 3px;
+    border: 2px solid burlywood;
+    padding-left: 10px;
 }
 
 #chart {
